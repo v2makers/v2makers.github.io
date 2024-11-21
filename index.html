@@ -8,11 +8,14 @@
         body {
             font-family: Arial, sans-serif;
             background-color: #f2f2f2;
+            color: #333;
             text-align: center;
             padding: 50px;
+            margin: 0;
         }
         h1 {
-            color: #333;
+            color: #3498db;
+            font-size: 2.5em;
         }
         p {
             font-size: 1.2em;
@@ -31,6 +34,27 @@
             0% { transform: rotate(0deg); }
             100% { transform: rotate(360deg); }
         }
+        .contact-info {
+            margin-top: 30px;
+            font-size: 1.1em;
+            color: #555;
+        }
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .icon {
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+        .icon img {
+            width: 24px;
+            height: 24px;
+        }
     </style>
 </head>
 <body>
@@ -38,7 +62,15 @@
     <h1>سایت در حال بروزرسانی می‌باشد</h1>
     <p>لطفاً کمی صبر کنید...</p>
     <div class="spinner"></div>
-    <p>لطفاً با ایمیل <a href="mailto:v2makers.info@gmail.com">v2makers.info@gmail.com</a> یا آیدی پشتیبانی تلگرام <a href="https://t.me/v2makers_admin">@v2makers_admin</a> در ارتباط باشید. در کمتر از 2 ساعت پاسخ شما داده می‌شود.</p>
+
+    <div class="contact-info">
+        <p>لطفاً با ایمیل <a href="mailto:v2makers.info@gmail.com">v2makers.info@gmail.com</a> 
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Mail_icon.svg" alt="Email Icon" class="icon">
+        یا آیدی پشتیبانی تلگرام 
+        <a href="https://t.me/v2makers_admin">@v2makers_admin</a> 
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Telegram_logo.svg" alt="Telegram Icon" class="icon">
+        در ارتباط باشید. در کمتر از 2 ساعت پاسخ شما داده می‌شود.</p>
+    </div>
 
 </body>
 </html>
