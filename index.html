@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             background-color: #f2f2f2;
             color: #333;
-            text-align: center;
+            text-align: right;
             padding: 50px;
             margin: 0;
         }
@@ -39,13 +39,16 @@
             font-size: 1.1em;
             color: #555;
         }
-        .contact-info a {
-            color: #3498db;
-            text-decoration: none;
-            font-weight: bold;
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            text-align: right;
         }
-        .contact-info a:hover {
-            text-decoration: underline;
+        td {
+            padding: 10px;
+            border: 1px solid #ccc;
+            font-weight: bold;
         }
         .icon {
             margin-left: 10px;
@@ -54,6 +57,14 @@
         .icon img {
             width: 24px;
             height: 24px;
+        }
+        .contact-info a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -64,12 +75,22 @@
     <div class="spinner"></div>
 
     <div class="contact-info">
-        <p>لطفاً با ایمیل <a href="mailto:v2makers.info@gmail.com">v2makers.info@gmail.com</a> 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Mail_icon.svg" alt="Email Icon" class="icon">
-        یا آیدی پشتیبانی تلگرام 
-        <a href="https://t.me/v2makers_admin">@v2makers_admin</a> 
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Telegram_logo.svg" alt="Telegram Icon" class="icon">
-        در ارتباط باشید. در کمتر از 2 ساعت پاسخ شما داده می‌شود.</p>
+        <p>لطفاً با یکی از روش‌های زیر در ارتباط باشید:</p>
+        <table>
+            <tr>
+                <td>ایمیل:</td>
+                <td><a href="mailto:v2makers.info@gmail.com">v2makers.info@gmail.com</a> 
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/Mail_icon.svg" alt="Email Icon" class="icon">
+                </td>
+            </tr>
+            <tr>
+                <td>آیدی پشتیبانی تلگرام:</td>
+                <td><a href="https://t.me/v2makers_admin">@v2makers_admin</a> 
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Telegram_logo.svg" alt="Telegram Icon" class="icon">
+                </td>
+            </tr>
+        </table>
+        <p>در کمتر از 2 ساعت پاسخ شما داده می‌شود.</p>
     </div>
 
 </body>
